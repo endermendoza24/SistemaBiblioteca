@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "57m3JmsvVNtJVqmalC2MMxs+3noXXJB518/VkWcCkHs=",
+  "Hash": "nSKCOJTjLd+yp/GJSM0Ej0dr6uQSQiyClcWxaoG6h5U=",
   "Source": "SistemaBiblioteca.Server",
   "BasePath": "_content/SistemaBiblioteca.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "SistemaBiblioteca.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true;Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -760,23 +760,6 @@
       "OriginalItemSpec": "C:\\Users\\ender\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.1\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
-      "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "SistemaBiblioteca.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ender\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.1\\runtimes\\browser-wasm\\native\\icudt.dat"
-    },
-    {
       "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "SistemaBiblioteca.Client",
       "SourceType": "Project",
@@ -826,6 +809,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ender\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.1\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "SistemaBiblioteca.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ender\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.1\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -7747,6 +7747,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "SistemaBiblioteca.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
       "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "SistemaBiblioteca.Client",
       "SourceType": "Project",
@@ -7847,23 +7864,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "SistemaBiblioteca.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

@@ -9,13 +9,21 @@ namespace SistemaBiblioteca.Client.Tema
         {
             Palette = new Palette()
             {
-                Primary = Colors.Blue.Darken1,
-                Secondary = Colors.DeepPurple.Accent2,
-                Background = Colors.Grey.Lighten5,
-                AppbarBackground = Colors.Blue.Darken1,
-                DrawerBackground = "#FFF",
-                DrawerText = "rgba(0,0,0, 0.7)",
-                Success = "#06d79c"
+                //Primary = Colors.Blue.Darken1,
+                //Secondary = Colors.DeepPurple.Accent2,
+                //Background = Colors.Grey.Lighten5,
+                //AppbarBackground = Colors.Blue.Darken1,
+                //DrawerBackground = "#023373",
+                //DrawerText = "rgba(0,0,0, 0.7)",
+                //Success = "#06d79c"
+
+                Primary = "#F29F05",
+                Secondary = "#03318C",
+                Background = "#FFF",
+                AppbarBackground = "#03318C",
+                DrawerBackground = "#F2F2F2",
+                DrawerText = "rgba(3,49,140, 1)",
+                Success = "#FFD95A"
             };
 
             LayoutProperties = new LayoutProperties()
