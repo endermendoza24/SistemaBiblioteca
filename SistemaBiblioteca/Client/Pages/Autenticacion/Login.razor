@@ -5,7 +5,6 @@
 @inject NavigationManager _navigationManager
 
 <EditForm Model="@usuarioLogin" OnValidSubmit="OnValidSubmit">
-
     <DataAnnotationsValidator></DataAnnotationsValidator>
 
     <MudText Typo="Typo.h4" GutterBottom="true" Align="Align.Center">Bienvenido</MudText>
@@ -15,8 +14,15 @@
                   Label="Correo"
                   Variant="Variant.Outlined"
                   Class="my-6"
-                  For="@(() => usuarioLogin.correo)">
+                  For="@(() => usuarioLogin.correo)"
+                  @oninput="ValidateEmail"
+                  Immediate="true">
     </MudTextField>
+
+    @if (!isEmailValid)
+    {
+        <MudText Typo="Typo.body2" Color="Color.Error">Formato de correo inválido</MudText>
+    }
 
     <MudTextField @bind-Value="@usuarioLogin.clave"
                   Label="Contraseña"
@@ -27,31 +33,33 @@
                   OnAdornmentClick="TogglePasswordVisibility"
                   For="@(() => usuarioLogin.clave )" />
 
+    <!-- Aquí usamos la propiedad 'IsButtonDisabled' en lugar de la expresión directa -->
     <MudButton Class="mt-5" Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Submit" Size="Size.Large"
                FullWidth="true"
-               Disabled="@disableButton">Iniciar Sesión</MudButton>
+               Disabled="@IsButtonDisabled">Iniciar Sesión</MudButton>
 
     <MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="@(myImageClass + " my-7")" />
 </EditForm>
 
 <MudAlert Severity="Severity.Error" Class="@(myAlert + " mt-8 mud-width-full")" Style="max-width:500px;" Elevation="25">No se encontraron coincidencias</MudAlert>
 
-
 @code {
-
     UsuarioLogin usuarioLogin = new UsuarioLogin();
     string myImageClass { get; set; } = "d-none";
     string myAlert { get; set; } = "d-none";
     bool disableButton { get; set; } = false;
-
+    bool isEmailValid { get; set; } = true; // Para controlar la validez del correo
 
     bool PasswordVisibility;
     InputType PasswordInput = InputType.Password;
     string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
 
+    // Propiedad que determinará si el botón debe estar deshabilitado o no
+    bool IsButtonDisabled => disableButton || !isEmailValid;
+
     void TogglePasswordVisibility()
     {
-        @if (PasswordVisibility)
+        if (PasswordVisibility)
         {
             PasswordVisibility = false;
             PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
@@ -69,7 +77,7 @@
     {
         myImageClass = "d-block";
         disableButton = true;
-        var result = await _usuarioServicio.IniciarSesion(usuarioLogin.correo,usuarioLogin.clave);
+        var result = await _usuarioServicio.IniciarSesion(usuarioLogin.correo, usuarioLogin.clave);
 
         if (result.status)
             _navigationManager.NavigateTo("/pages/dashboard");
@@ -80,5 +88,18 @@
             myAlert = "d-block";
         }
     }
-}
 
+    // Función para validar el formato de correo
+    private void ValidateEmail(ChangeEventArgs e)
+    {
+        var email = e.Value?.ToString() ?? string.Empty;
+        isEmailValid = EmailValido(email);
+    }
+
+    // Función que valida el formato de un correo electrónico
+    private bool EmailValido(string email)
+    {
+        var emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+        return System.Text.RegularExpressions.Regex.IsMatch(email, emailPattern);
+    }
+}
