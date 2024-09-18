@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LYOrwB8jrIzIbVJ04PFP8p2SkP5wrxr5pfWeQbg3khM8KYs4hNrj0hVePXm7pIhASIBxkjpkVnqVXZOiULzLMg==",
+  "dgSpecHash": "9AM4MFYyi+wXYgOUilKA0T+ry6PPxfXhxOJO5xOTL5ciNr6KzHkY183hW9SWCanE7gRPW8zaTVXLiaDiCwAYew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Server\\SistemaBiblioteca.Server.csproj",
+  "projectFilePath": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\sistemabiblioteca\\server\\SistemaBiblioteca.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ender\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ender\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
