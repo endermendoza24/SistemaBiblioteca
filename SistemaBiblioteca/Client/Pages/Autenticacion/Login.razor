@@ -4,44 +4,198 @@
 @inject IUsuarioServicio _usuarioServicio;
 @inject NavigationManager _navigationManager
 
-<EditForm Model="@usuarioLogin" OnValidSubmit="OnValidSubmit">
-    <DataAnnotationsValidator></DataAnnotationsValidator>
+<section class="login-block">
+    <div class="container">
+	<div class="row">
+		<div class="col-md-4 login-sec">
+		    <h2 class="text-center">Sea bienvenido...</h2>
+            <h3 class="text-center">Sistema biblioteca Manuel Hernández Martínez</h3>
+		    <form class="login-form">
+                    <EditForm Model="@usuarioLogin" OnValidSubmit="OnValidSubmit">
+                        <DataAnnotationsValidator></DataAnnotationsValidator>
 
-    <MudText Typo="Typo.h4" GutterBottom="true" Align="Align.Center">Bienvenido</MudText>
+                        @* <!-- Título de bienvenida -->
+                        <MudText Typo="Typo.h4" GutterBottom="true" Align="Align.Center" Class="mb-4">Bienvenido</MudText> *@
 
-    <MudTextField T="string"
-                  @bind-Value="@usuarioLogin.correo"
-                  Label="Correo"
-                  Variant="Variant.Outlined"
-                  Class="my-6"
-                  For="@(() => usuarioLogin.correo)"
-                  @oninput="ValidateEmail"
-                  Immediate="true">
-    </MudTextField>
+                        <!-- Campo de correo -->
+                        <MudTextField T="string"
+                                      @bind-Value="@usuarioLogin.correo"
+                                      Label="Correo electrónico"
+                                      Variant="Variant.Outlined"
+                                      Class="mb-3"
+                                      For="@(() => usuarioLogin.correo)"
+                                      @oninput="ValidateEmail"
+                                      Immediate="true"
+                                      Icon="@Icons.Material.Filled.Email"
+                                      IconSize="Size.Medium">
+                        </MudTextField>
 
-    @if (!isEmailValid)
-    {
-        <MudText Typo="Typo.body2" Color="Color.Error">Formato de correo inválido</MudText>
+                        <!-- Mensaje de error para correo -->
+                        @if (!isEmailValid)
+                        {
+                            <MudText Typo="Typo.body2" Color="Color.Error">Formato de correo inválido</MudText>
+                        }
+
+                        <!-- Campo de contraseña -->
+                        <MudTextField @bind-Value="@usuarioLogin.clave"
+                                      Label="Contraseña"
+                                      Variant="Variant.Outlined"
+                                      InputType="@PasswordInput"
+                                      Adornment="Adornment.End"
+                                      AdornmentIcon="@PasswordInputIcon"
+                                      OnAdornmentClick="TogglePasswordVisibility"
+                                      For="@(() => usuarioLogin.clave)"
+                                      Class="mb-4"
+                                      Icon="@Icons.Material.Filled.Lock"
+                                      IconSize="Size.Medium">
+                        </MudTextField>
+
+                        <!-- Botón de inicio de sesión -->
+                        <MudButton Class="mt-3" Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Submit" Size="Size.Large"
+                                   FullWidth="true"
+                                   Disabled="@IsButtonDisabled">
+                            Iniciar Sesión
+                        </MudButton>
+
+                        <!-- Indicador de progreso -->
+                        <MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="@(myImageClass + " mt-4 mb-4")" />
+
+                        <!-- Mensaje de error -->
+                        <MudAlert Severity="Severity.Error" Class="@(myAlert + " mt-4")" Elevation="6" Style="max-width:100%;">
+                            No se encontraron coincidencias
+                        </MudAlert>
+                    </EditForm>
+  
+</form>
+		</div>
+		<div class="col-md-8 banner-sec">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>                    
+                  </ol>
+            <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      @* <img class="d-block img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglkgc_ycq-tftu62CH-XYDfPqNA3TGT1YdzhlL348t8jGFgXAr2tdpaphDpDfvtqVJkPo-ZSHlFrSg9auukeOvCgG15shRqDUjrQ8SS0M2a9XUjTINLAd-rPUvkgyH9AejrNJyiBBfFvsi/s400/mhm.png" alt="First slide"> *@
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2>Sistema biblioteca Manuel Hernández Martinez</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>	
+  </div>
+    </div>
+            </div>	   
+		    
+		</div>
+	</div>
+</div>
+</div>
+</section>
+
+<style>
+    .login-block {
+        background: #DE6262; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        float: left;
+        width: 100%;
+        padding: 50px 0;
     }
 
-    <MudTextField @bind-Value="@usuarioLogin.clave"
-                  Label="Contraseña"
-                  Variant="Variant.Outlined"
-                  InputType="@PasswordInput"
-                  Adornment="Adornment.End"
-                  AdornmentIcon="@PasswordInputIcon"
-                  OnAdornmentClick="TogglePasswordVisibility"
-                  For="@(() => usuarioLogin.clave )" />
+    .banner-sec {
+        background: url(https://www.teknei.com/wp-content/uploads/2020/09/alfons-morales-YLSwjSy7stw-unsplash-e1630306388778.jpg) no-repeat left bottom;
+        background-size: cover;
+        min-height: 500px;
+        border-radius: 0 10px 10px 0;
+        padding: 0;
+    }
 
-    <!-- Aquí usamos la propiedad 'IsButtonDisabled' en lugar de la expresión directa -->
-    <MudButton Class="mt-5" Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Submit" Size="Size.Large"
-               FullWidth="true"
-               Disabled="@IsButtonDisabled">Iniciar Sesión</MudButton>
+    .container {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 15px 20px 0px rgba(0,0,0,0.1);
+    }
 
-    <MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="@(myImageClass + " my-7")" />
-</EditForm>
+    .carousel-inner {
+        border-radius: 0 10px 10px 0;
+    }
 
-<MudAlert Severity="Severity.Error" Class="@(myAlert + " mt-8 mud-width-full")" Style="max-width:500px;" Elevation="25">No se encontraron coincidencias</MudAlert>
+    .carousel-caption {
+        text-align: left;
+        left: 5%;
+    }
+
+    .login-sec {
+        padding: 50px 30px;
+        position: relative;
+    }
+
+        .login-sec .copy-text {
+            position: absolute;
+            width: 80%;
+            bottom: 20px;
+            font-size: 13px;
+            text-align: center;
+        }
+
+            .login-sec .copy-text i {
+                color: #FEB58A;
+            }
+
+            .login-sec .copy-text a {
+                color: #E36262;
+            }
+
+        .login-sec h2 {
+            margin-bottom: 30px;
+            font-weight: 800;
+            font-size: 30px;
+            color: #DE6262;
+        }
+
+            .login-sec h2:after {
+                content: " ";
+                width: 100px;
+                height: 5px;
+                background: #FEB58A;
+                display: block;
+                margin-top: 20px;
+                border-radius: 3px;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+    .btn-login {
+        background: #DE6262;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .banner-text {
+        width: 70%;
+        position: absolute;
+        bottom: 40px;
+        padding-left: 20px;
+    }
+
+        .banner-text h2 {
+            color: #fff;
+            font-weight: 600;
+        }
+
+            .banner-text h2:after {
+                content: " ";
+                width: 100px;
+                height: 5px;
+                background: #FFF;
+                display: block;
+                margin-top: 20px;
+                border-radius: 3px;
+            }
+
+        .banner-text p {
+            color: #fff;
+        }
+</style>
 
 @code {
     UsuarioLogin usuarioLogin = new UsuarioLogin();

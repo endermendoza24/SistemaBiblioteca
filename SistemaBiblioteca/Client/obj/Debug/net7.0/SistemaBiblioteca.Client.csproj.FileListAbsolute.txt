@@ -846,8 +846,10 @@ E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\Sis
 E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\CurrieTechnologies.Razor.SweetAlert2.dll.gz
 E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll
 E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\MV+oRukI.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.1.2oe5g2ms40.js
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
@@ -885,6 +887,10 @@ C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBibliot
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.ThemeManager.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Client.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Client.pdb
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Shared.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Shared.pdb
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
@@ -1047,12 +1053,6 @@ C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBibliot
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
-C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
-C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.1.2oe5g2ms40.js
-C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Client.dll
-C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Client.pdb
-C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Shared.dll
-C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\SistemaBiblioteca.Shared.pdb
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
@@ -1694,3 +1694,31 @@ C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBibliot
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\refint\SistemaBiblioteca.Client.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\SistemaBiblioteca.Client.pdb
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\ref\SistemaBiblioteca.Client.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\DinkToPdf.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\EPPlus.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.SystemEvents.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Common.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Pkcs.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XmlDocument.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\EPPlus.dll.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.IO.RecyclableMemoryStream.dll.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Pkcs.dll.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XmlDocument.dll.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.SystemEvents.dll.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\DinkToPdf.dll.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Common.dll.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\DinkToPdf.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\EPPlus.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\bin\Debug\net7.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\WdFF5MxT.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\0B2V3MEo.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\4AL5VD+D.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\ULVMdlMi.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\Wezm18R8.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\Klz40f16.gz
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Client\obj\Debug\net7.0\build-gz\swrUPdxa.gz

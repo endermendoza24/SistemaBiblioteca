@@ -20,7 +20,5 @@ builder.Services.AddScoped<ICategoriaServicio, CategoriaServicio>();
 builder.Services.AddScoped<ILibroServicio, LibroServicio>();
 builder.Services.AddScoped<IPrestamoServicio, PrestamoServicio>();
 builder.Services.AddScoped<IDashBoardServicio, DashBoardServicio>();
-
-
 builder.Services.AddSweetAlert2();
 await builder.Build().RunAsync();

@@ -27,6 +27,8 @@ builder.Services.AddScoped<ILibroRepositorio, LibroRepositorio>();
 builder.Services.AddScoped<IPrestamoRepositorio, PrestamoRepositorio>();
 builder.Services.AddScoped<IDashBoardRepositorio, DashBoardRepositorio>();
 
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

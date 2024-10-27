@@ -1,8 +1,12 @@
 ﻿@page "/pages/prestamos"
+@using OfficeOpenXml;
+@using OfficeOpenXml.Style;
 @using SistemaBiblioteca.Client.Pages.Modales;
 @inject MenuService _menuServicio;
 @inject IPrestamoServicio _prestamoServicio;
 @inject IDialogService _dialogServicio
+@inject IJSRuntime JS
+
 
 <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-5">
 
@@ -14,11 +18,15 @@
                                @bind-Value="@estadoPrestamo" Margin="Margin.Dense">
                         <MudSelectItem Value="@("Todos")" />
                         <MudSelectItem Value="@("Pendiente")" />
-                        <MudSelectItem Value="@("Devuelto")" />
+                        <MudSelectItem Value="@("Devuelto")" />                        
                     </MudSelect>
                     <MudTextField @bind-Value="codigoLector" Label="Codigo Lector" Variant="Variant.Outlined" Margin="Margin.Dense"></MudTextField>
                     <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Search" Color="Color.Info"
                                AnchorOrigin="Origin.BottomCenter" Size="Size.Small" OnClick="Buscar">Buscar</MudButton>
+
+                    <!-- Botón para generar el informe PDF -->
+                    <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Download" Color="Color.Primary"
+                               Size="Size.Small" OnClick="GenerarInforme">Generar Informe</MudButton>
                 </div>
             </MudItem>
 
@@ -45,7 +53,7 @@
                     </HeaderContent>
                     <RowTemplate Context="prestamoRow">
                         <MudTd DataLabel="Estado Prestamo">
-                            @if(prestamoRow.IdEstadoPrestamoNavigation!.IdEstadoPrestamo == 1)
+                            @if (prestamoRow.IdEstadoPrestamoNavigation!.IdEstadoPrestamo == 1)
                             {
                                 <MudChip Color="Color.Error" Size="Size.Small">@prestamoRow.IdEstadoPrestamoNavigation.Descripcion</MudChip>
                             }
@@ -53,7 +61,7 @@
                             {
                                 <MudChip Color="Color.Success" Size="Size.Small">@prestamoRow.IdEstadoPrestamoNavigation.Descripcion</MudChip>
                             }
-                            
+
                         </MudTd>
                         <MudTd DataLabel="Codigo Prestamo">@prestamoRow.Codigo</MudTd>
                         <MudTd DataLabel="Codigo Lector">@prestamoRow.IdLectorNavigation.Codigo</MudTd>
@@ -61,8 +69,8 @@
                             <MudTd DataLabel="Libro">@prestamoRow.IdLibroNavigation.Titulo</MudTd>
                             <MudTd DataLabel="Fecha Devolucion">@prestamoRow.FechaDevolucion.Value.ToString("dd/MM/yyyy")</MudTd>
                             <MudTd DataLabel="Fecha Confirmacion Devolucion">@(prestamoRow.FechaConfirmacionDevolucion == null ? "" : prestamoRow.FechaConfirmacionDevolucion.Value.ToString("dd/MM/yyyy"))</MudTd>
-                        <MudTd DataLabel="">
-                            @if (prestamoRow.IdEstadoPrestamoNavigation!.IdEstadoPrestamo == 1)
+                            <MudTd DataLabel="">
+                                @if (prestamoRow.IdEstadoPrestamoNavigation!.IdEstadoPrestamo == 1)
                             {
                                 <MudFab Color="Color.Info"
                                     StartIcon="@Icons.Material.Filled.Sync"
@@ -75,10 +83,10 @@
                                 <MudFab Color="Color.Secondary"
                                     StartIcon="@Icons.Material.Filled.Visibility"
                                     Size="Size.Small"
-                                    IconSize="Size.Small" 
+                                    IconSize="Size.Small"
                                     OnClick="@(() => VerDetalle(prestamoRow))" />
                             }
-                        
+
                         </MudTd>
                     </RowTemplate>
                     <PagerContent>
@@ -94,6 +102,7 @@
 </MudContainer>
 @code {
     List<PrestamoDTO> _listaPrestamo = new List<PrestamoDTO>();
+    public List<Prestamos> prestamos { get; set; }
     private string searchString1 = "";
     private PrestamoDTO selectedItem1 = null;
     private bool _loading = true;
@@ -145,7 +154,7 @@
     private async Task Buscar()
     {
         _loading = true;
-        var result = await _prestamoServicio.Buscar(estadoPrestamo.ToLower(),codigoLector == "" ? "na":codigoLector);
+        var result = await _prestamoServicio.Buscar(estadoPrestamo.ToLower(), codigoLector == "" ? "na" : codigoLector);
         if (result.status)
         {
             _listaPrestamo = (List<PrestamoDTO>)result.value!;
@@ -172,8 +181,12 @@
             await ObtenerPrestamos();
             _loading = false;
         }
-
-
-        
     }
+
+    private void GenerarInforme()
+    {
+        // Redirigir al endpoint para descargar el PDF
+        JS.InvokeVoidAsync("window.open", "/api/Prestamo/exportarPDF", "_blank");
+    }
+
 }

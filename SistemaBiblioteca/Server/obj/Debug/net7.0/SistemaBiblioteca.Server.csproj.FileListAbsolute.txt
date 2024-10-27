@@ -100,6 +100,7 @@ E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\Sis
 E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 E:\WorkSpaceAD\YOUTUBE\100_SISTEMA BIBLIOTECA BLAZOR NET 7\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SistemaBiblioteca.Client.staticwebassets.runtime.json
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\appsettings.json
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
@@ -110,7 +111,6 @@ C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBibliot
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
-C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SistemaBiblioteca.Client.staticwebassets.runtime.json
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SistemaBiblioteca.Server.staticwebassets.runtime.json
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SistemaBiblioteca.Server.exe
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SistemaBiblioteca.Server.deps.json
@@ -121,7 +121,12 @@ C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBibliot
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\ClosedXML.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\ClosedXML.Parser.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\ExcelNumberFormat.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\Humanizer.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
@@ -155,10 +160,13 @@ C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBibliot
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\MudBlazor.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\MudBlazor.ThemeManager.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\RBush.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SixLabors.Fonts.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.IO.Packaging.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.Memory.Data.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
@@ -202,3 +210,20 @@ C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBibliot
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\obj\Debug\net7.0\SistemaBiblioteca.Server.pdb
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\obj\Debug\net7.0\SistemaBiblioteca.Server.genruntimeconfig.cache
 C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\obj\Debug\net7.0\ref\SistemaBiblioteca.Server.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\DinkToPdf.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\EPPlus.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\PdfSharpCore.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\ICSharpCode.SharpZipLib.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\de\PdfSharpCore.resources.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\ender\OneDrive\Documentos\Dark\SISTEMA\SistemaBiblioteca\SistemaBiblioteca\Server\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
