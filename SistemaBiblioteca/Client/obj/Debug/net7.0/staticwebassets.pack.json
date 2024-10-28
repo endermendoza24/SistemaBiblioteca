@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\js\\utils.js"
     },
     {
+      "Id": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\mhm.png",
       "PackagePath": "staticwebassets\\mhm.png"
     },

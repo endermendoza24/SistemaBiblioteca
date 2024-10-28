@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CvVZy7k2k+5cMAvCu2NIC5U0LL0pno/Z2S6AInwSu4U=",
+  "Hash": "ZuaikTV2dB0RJCKOlZFSwyCal+vnNV0orVo7vsyaBJA=",
   "Source": "SistemaBiblioteca.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -8226,6 +8226,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\utils.js"
+    },
+    {
+      "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\logo.png",
+      "SourceId": "SistemaBiblioteca.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
     },
     {
       "Identity": "C:\\Users\\ender\\OneDrive\\Documentos\\Dark\\SISTEMA\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\wwwroot\\mhm.png",
